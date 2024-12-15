@@ -6,3 +6,5 @@ jobs:
         run:echo "this job trigged when ${{github.event_name}}"
         -name:print os runner
         run:echo "this run on ${{runner.os}} server"
+       
+
